@@ -51,27 +51,29 @@ public class Demo {
 //        System.out.println(Dog.averageAge);
 //        System.out.println(Cat.averageAge);
 
-        Demo.s1 = new Student();
-        Demo.s1.name = "Suresh";
-        Demo.s1.age = 23;
+
         Student.averageAge = 25;
 
+        Demo.s1 = new Student(); // #1
+        Student s2 = s1;
+        Student s3 = new Student(); // #2
 
-        Student s2 = new Student();
+        Demo.s1.name = "Suresh";
+        Demo.s1.age = 23;
+
+
         s2.name = "Ramesh";
         s2.age = 19;
-        Student.averageAge = 30;
+
+        s3.name = "Dharmesh";
+        s3.age = 99;
 
 
-
-        System.out.println(Demo.s1.name);
-        System.out.println(s2.name);
-        System.out.println("------------");
+        s1 = s3;
+        s2 = s1;
+        System.gc();
         System.out.println(s1.age);
         System.out.println(s2.age);
-        System.out.println("------------");
-        System.out.println(Student.averageAge);
-        System.out.println(Student.averageAge);
 
 
     }
