@@ -1,5 +1,7 @@
 package codekamp;
 
+import javax.swing.plaf.PanelUI;
+
 /**
  * Created by cerebro on 14/06/18.
  */
@@ -18,6 +20,9 @@ public class Animal {
     }
 
     public void walk() {
-        System.out.println("Moving moving moving moving " + this.name);
+        System.out.println("Animal class kaa walk method");
+    }
+
+    public void doFavoriteThing() {
     }
 }

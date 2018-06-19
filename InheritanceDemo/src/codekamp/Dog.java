@@ -5,7 +5,11 @@ package codekamp;
  */
 public class Dog extends Animal {
 
-    public void chaseTheTale() {
+    public void chaseTheTail() {
         System.out.println("having fun chasing the tale");
+    }
+
+    public void doFavoriteThing() {
+        System.out.println("Play with ball");
     }
 }

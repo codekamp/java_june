@@ -39,4 +39,8 @@ public class Kangaroo extends Animal {
     public void eat(int count, String item) {
         System.out.println("Eating " + count + " " + item);
     }
+
+    public void doFavoriteThing() {
+        System.out.println("Jump Jump Jump");
+    }
 }

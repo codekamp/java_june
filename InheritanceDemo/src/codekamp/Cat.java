@@ -18,4 +18,9 @@ public class Cat extends Animal {
 //    public void walk() {
 //        System.out.println("Moving moving moving moving " + this.name);
 //    }
+
+
+    public void doFavoriteThing() {
+        System.out.println("Chase the mouse");
+    }
 }
