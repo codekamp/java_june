@@ -48,6 +48,12 @@ public class Demo implements ActionListener {
         f1.add(p);
 
         f1.setVisible(true);
+
+        Dog dog1 = new Dog();
+        Cat cat1 = new Cat();
+        Educated e1 = dog1;
+
+        loginButton.addActionListener(dog1);
     }
 
     public static void login(String username, String password) {
@@ -67,4 +73,7 @@ public class Demo implements ActionListener {
     // ...will be called.
 
 
+//    JButton's addActionListner method should:
+//    1. Accept Object of any class in parameter
+//    2. But that class should have actionPerformed method in it.
 }
