@@ -71,22 +71,30 @@ public class Demo {
         // At compile time methods search starts from class of variable
         // But at run time methods search starts from class of object.
 
-        Random r = new Random();
+//        Random r = new Random();
 
 //        value of xyz will be 10 to 15, includeing the limits
 //        int xyz = 10 + r.nextInt(6);
 
-        int animalType = r.nextInt(3);
+//        int animalType = r.nextInt(3);
+//
+//        if(animalType == 0) {
+//            Demo.screenAnimal = new Dog();
+//        } else if(animalType == 1) {
+//            Demo.screenAnimal = new Cat();
+//        } else {
+//            Demo.screenAnimal = new Kangaroo();
+//        }
 
-        if(animalType == 0) {
-            Demo.screenAnimal = new Dog();
-        } else if(animalType == 1) {
-            Demo.screenAnimal = new Cat();
-        } else {
-            Demo.screenAnimal = new Kangaroo();
-        }
 
-        Demo.onDoubleTap();
+//        Demo.onDoubleTap();
+
+
+        Dog myDog = new Dog();
+        myDog.enemyCat = new Cat(); // Cat #1
+        myDog.enemyCat.enemyDog = myDog;
+
+        myDog.enemyCat = null;
     }
 
 
@@ -98,6 +106,7 @@ public class Demo {
 //    }
 
     public static void onDoubleTap() {
+
         Demo.screenAnimal.doFavoriteThing();
     }
 

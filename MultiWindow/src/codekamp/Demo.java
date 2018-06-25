@@ -10,46 +10,72 @@ import java.awt.event.ActionListener;
  */
 public class Demo implements ActionListener {
 
-    private static JLabel label;
-    private static JButton chageColorButton;
-    private static JButton newWindowButton;
+    private JLabel label;
+    private JButton chageColorButton;
+    private JButton newWindowButton;
+
+    public static int windowCount = 0;
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
-        frame.setSize(500, 500);
-
-        JPanel panel = new JPanel();
-        frame.add(panel);
-
-        Demo.label = new JLabel();
-        Demo.label.setText("Hello world!");
-        panel.add(Demo.label);
-
-        Demo.chageColorButton = new JButton();
-        Demo.chageColorButton.setText("Change Color");
-        panel.add(Demo.chageColorButton);
-
-        Demo.newWindowButton = new JButton();
-        Demo.newWindowButton.setText("New Window");
-        panel.add(Demo.newWindowButton);
-
-        frame.setVisible(true);
-
-        Demo d1 = new Demo();
-        Demo.chageColorButton.addActionListener(d1);
-        Demo.newWindowButton.addActionListener(d1);
+        Demo.createWindow();
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == Demo.chageColorButton) {
-            if (Demo.label.getForeground() == Color.red) {
-                Demo.label.setForeground(Color.black);
+        if(e.getSource() == this.chageColorButton) {
+            if (this.label.getForeground() == Color.red) {
+                this.label.setForeground(Color.black);
             } else {
-                Demo.label.setForeground(Color.red);
+                this.label.setForeground(Color.red);
             }
-        } else {
-            System.out.println("New Window button clicked");
+        } else if(e.getSource() == this.newWindowButton) {
+            Demo.createWindow();
         }
     }
+
+    public static void createWindow() {
+        Demo.windowCount++;
+
+        Demo d1 = new Demo(); // Demo #1
+
+        JFrame frame = new JFrame();
+        frame.setSize(500, 500);
+        frame.setTitle("Demo #" + Demo.windowCount);
+
+        JPanel panel = new JPanel();
+        frame.add(panel);
+
+        d1.label = new JLabel();
+        d1.label.setText("Hello world!");
+        panel.add(d1.label);
+
+        d1.chageColorButton = new JButton();
+        d1.chageColorButton.setText("Change Color");
+        panel.add(d1.chageColorButton);
+
+        d1.newWindowButton = new JButton();
+        d1.newWindowButton.setText("Create New Window");
+        panel.add(d1.newWindowButton);
+
+        frame.setVisible(true);
+
+        d1.chageColorButton.addActionListener(d1);
+        d1.newWindowButton.addActionListener(d1);
+    }
+
+    // Objects lifetime:
+    // created when you call new Something()
+    // destroyed when there is no variable left that points to that object
+
+
+    // Varialbes lifetime:
+    // Static:
+    // defined on program launch and deleted on programm termination
+
+    // non static:
+    // defined on Object creation and deleted on object deletion
+
+    // local:
+    // defined when function call reaches line where variable is defined
+    // deleted when function call completes.
 }

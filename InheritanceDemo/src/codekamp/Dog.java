@@ -5,6 +5,8 @@ package codekamp;
  */
 public class Dog extends Animal {
 
+    public Cat enemyCat;
+
     public void chaseTheTail() {
         System.out.println("having fun chasing the tale");
     }

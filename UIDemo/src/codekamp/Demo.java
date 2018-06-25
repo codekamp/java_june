@@ -34,7 +34,7 @@ public class Demo implements ActionListener {
         passwordLabel.setForeground(Color.red);
         p.add(passwordLabel);
 
-        Demo.passwordField = new JTextField();
+        Demo.passwordField = new JPasswordField();
         Demo.passwordField.setText("enter password");
         p.add(Demo.passwordField);
 
