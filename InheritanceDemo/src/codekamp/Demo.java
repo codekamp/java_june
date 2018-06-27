@@ -90,11 +90,15 @@ public class Demo {
 //        Demo.onDoubleTap();
 
 
-        Dog myDog = new Dog();
-        myDog.enemyCat = new Cat(); // Cat #1
-        myDog.enemyCat.enemyDog = myDog;
+//        Dog myDog = new Dog();
+//        myDog.enemyCat = new Cat(); // Cat #1
+//        myDog.enemyCat.enemyDog = myDog;
+//
+//        myDog.enemyCat = null;
 
-        myDog.enemyCat = null;
+
+        Dog d1 = new Dog();
+        d1.walk();
     }
 
 

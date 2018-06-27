@@ -16,10 +16,13 @@ public class Animal {
     public String name;
 
     public void talk() {
-        System.out.println("wuff wuff");
+        System.out.println("Animal talking");
+        // data type of variable 'this' is animal
+        this.walk();
     }
 
     public void walk() {
+
         System.out.println("Animal class kaa walk method");
     }
 

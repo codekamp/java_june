@@ -5,7 +5,7 @@ package codekamp;
  */
 public class Demo {
     public static void main(String[] args) {
-        Dog d1 = new Dog();
-        Dog d2 = new Dog("Pluto");
+
+        Dog d3 = new Dog();
     }
 }

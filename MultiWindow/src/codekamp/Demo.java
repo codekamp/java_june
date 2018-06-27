@@ -38,23 +38,19 @@ public class Demo implements ActionListener {
 
         Demo d1 = new Demo(); // Demo #1
 
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("Demo #" + Demo.windowCount);
         frame.setSize(500, 500);
-        frame.setTitle("Demo #" + Demo.windowCount);
 
         JPanel panel = new JPanel();
         frame.add(panel);
 
-        d1.label = new JLabel();
-        d1.label.setText("Hello world!");
+        d1.label = new JLabel("Hello world!");
         panel.add(d1.label);
 
-        d1.chageColorButton = new JButton();
-        d1.chageColorButton.setText("Change Color");
+        d1.chageColorButton = new JButton("Change Color");
         panel.add(d1.chageColorButton);
 
-        d1.newWindowButton = new JButton();
-        d1.newWindowButton.setText("Create New Window");
+        d1.newWindowButton = new JButton("Create New Window");
         panel.add(d1.newWindowButton);
 
         frame.setVisible(true);
