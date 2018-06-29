@@ -24,8 +24,13 @@ public class Demo {
         System.out.println("after try catch");
 
 
+        try {
+            int failedStudents = Student.getFailedStudentCount();
+        } catch (CopyNotCheckedYet copyNotCheckedYet) {
 
-        int failedStudents = Student.getFailedStudentCount();
+        }
+
+        Student.xyz();
     }
 
 

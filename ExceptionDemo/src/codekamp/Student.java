@@ -10,7 +10,7 @@ public class Student {
     // a function may have 0, 1 or more throw type
     // throw type can only be a subclass of Throwable
 
-    public static int getMarks(int rollNumber) throws Exception {
+    public static int getMarks(int rollNumber) throws RollNumberNotFound, CopyNotCheckedYet, FeeNotDeposited {
         if(rollNumber > 5) {
             // function failed because rollnumber not in our db
             RollNumberNotFound r = new RollNumberNotFound();
@@ -34,21 +34,28 @@ public class Student {
         return marks;
     }
 
-    public static int getFailedStudentCount() throws ResultNotReady {
+    // not catching an exception is equivalent to catching and immediately
+    // ... rethrowing it.
+    public static int getFailedStudentCount() throws CopyNotCheckedYet {
         int failedStudents = 0;
+
         for (int i = 0; i < 6; i++) {
             try {
                 int marks = Student.getMarks(i);
                 if(marks < 30) {
                     failedStudents++;
                 }
-            } catch (CopyNotCheckedYet e) {
-                throw new ResultNotReady();
-            } catch (Exception e) {
-                // leave blank
+            } catch (RollNumberNotFound e) {
+
+            } catch (FeeNotDeposited e) {
+                failedStudents++;
             }
         }
 
         return failedStudents;
+    }
+
+    public static void xyz() {
+
     }
 }
