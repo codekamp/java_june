@@ -49,7 +49,7 @@ public class ConfirmationPopup extends JFrame implements ActionListener {
             this.setVisible(false);
             this.dispose();
         } else if(e.getSource() == this.yesButton) {
-            this.listner.yesButtonClicked();
+            this.listner.yesButtonClicked(this);
         }
     }
 

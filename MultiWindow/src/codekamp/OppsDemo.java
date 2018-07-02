@@ -23,7 +23,7 @@ public class OppsDemo implements ConfirmationListner, ActionListener {
     }
 
     @Override
-    public void yesButtonClicked() {
+    public void yesButtonClicked(ConfirmationPopup popup) {
         System.out.println("Yes user has confirmed that he wants to delete the post");
 
     }
