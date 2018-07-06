@@ -1,12 +1,13 @@
 package codekamp;
 
 import codekamp.Screen.Screen;
-import codekamp.Screen.WelcomScreen;
+import codekamp.Screen.WelcomeScreen;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.awt.image.BufferedImage;
 
 /**
  * Created by cerebro on 05/07/18.
@@ -25,7 +26,10 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
     public void addNotify() {
         super.addNotify();
 
-        GamePanel.currentScreen = new WelcomScreen();
+        this.requestFocus();
+
+        Resources.load();
+        GamePanel.currentScreen = new WelcomeScreen();
 
         Thread t = new Thread(this);
         t.start();
@@ -38,7 +42,7 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
 
     @Override
     public void keyPressed(KeyEvent e) {
-
+        this.currentScreen.onKeyPress(e.getKeyCode());
     }
 
     @Override
@@ -48,6 +52,9 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
 
     @Override
     public void run() {
+
+        Image bigImage = new BufferedImage(Game.WIDTH, Game.HEIGHT, BufferedImage.TYPE_INT_RGB);
+
         while (true) {
             try {
                 Thread.sleep(30);
@@ -57,9 +64,16 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
 
             GamePanel.currentScreen.update();
 
-            GamePanel.currentScreen.draw();
+            Graphics panelGraphics = this.getGraphics();
+            Graphics imageGrahipcs = bigImage.getGraphics();
 
-            System.out.println("Game loop running");
+
+            imageGrahipcs.clearRect(0, 0, Game.WIDTH, Game.HEIGHT);
+            GamePanel.currentScreen.draw(imageGrahipcs);
+            imageGrahipcs.dispose();
+
+            panelGraphics.drawImage(bigImage, 0, 0, null);
+            panelGraphics.dispose(); // will come to this later
         }
     }
 }
