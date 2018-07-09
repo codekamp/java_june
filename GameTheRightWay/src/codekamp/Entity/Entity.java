@@ -30,4 +30,18 @@ public class Entity {
         this.xVel += this.xAcc;
         this.yVel += this.yAcc;
     }
+
+    public boolean isCollidingWith(Entity other) {
+        if (!visible || !other.visible) {
+            return false;
+        }
+
+        boolean xOverlap = (x > other.x && x < other.x + other.width)
+                || (other.x > x && other.x < x + width);
+
+        boolean yOverlap = (y > other.y && y < other.y + other.height)
+                || (other.y > y && other.y < y + height);
+
+        return xOverlap && yOverlap;
+    }
 }

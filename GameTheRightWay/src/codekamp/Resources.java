@@ -1,6 +1,7 @@
 package codekamp;
 
 import javax.imageio.ImageIO;
+import java.applet.Applet;
 import java.applet.AudioClip;
 import java.awt.*;
 import java.io.IOException;
@@ -39,6 +40,8 @@ abstract public class Resources {
             playerImages[5] = playerImages[3];
             playerImages[6] = playerImages[2];
             playerImages[7] = playerImages[1];
+            jumpAudio = Applet.newAudioClip(Resources.class.getClassLoader().getResource("codekamp/resources/audios/onjump.wav"));
+            hitAudio = Applet.newAudioClip(Resources.class.getClassLoader().getResource("codekamp/resources/audios/hit.wav"));
             loaded = true;
         } catch (IOException e) {
             e.printStackTrace();

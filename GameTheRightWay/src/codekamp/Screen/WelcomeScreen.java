@@ -3,7 +3,6 @@ package codekamp.Screen;
 import codekamp.Game;
 import codekamp.GamePanel;
 import codekamp.Resources;
-import codekamp.WelcomeScreenResources;
 
 import java.awt.*;
 
@@ -22,10 +21,13 @@ public class WelcomeScreen extends Screen {
         g.drawImage(Resources.getJumpImage(), this.playerXCord, 200, null);
         g.setColor(Color.green);
         g.drawString("Press any key to start the game", 200, 400);
+        super.draw(g);
     }
 
     @Override
     public void update() {
+        super.update();
+
         this.playerXCord += this.playerXVel;
 
         if(this.playerXCord >= Game.WIDTH - 72) {
