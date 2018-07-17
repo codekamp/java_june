@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f06e78f5-6d85-4606-90ca-9936291bc2d7" name="Default" comment="" />
-    <ignored path="DatabaseConnectivity.iws" />
+    <list default="true" id="dda66684-c404-47a7-a7cc-8e479ca62ada" name="Default" comment="" />
+    <ignored path="GuiForms.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -17,97 +17,40 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DatabaseView">
-    <option name="FLATTEN" value="false" />
-    <option name="GROUP_BY_TYPE" value="true" />
-    <option name="SORT_CHILDREN" value="false" />
-    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="DatabaseConnectivity" />
+    <favorites_list name="GuiForms" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/codekamp/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5731343">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.53846157">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="23" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/LoginScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
-                <marker date="1531458878840" expanded="true" signature="767:791" placeholder="SELECT * FRO..." />
-                <marker date="1531458878840" expanded="true" signature="1169:1233" placeholder="INSERT INTO ..." />
+                <element signature="imports" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9259257">
-              <caret line="260" column="23" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="175" column="11" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="330" column="50" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#26959#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4492#4493#0" expanded="false" />
-                <element signature="e#4528#4529#0" expanded="false" />
-                <element signature="e#17838#17839#0" expanded="false" />
-                <element signature="e#17876#17877#0" expanded="false" />
-                <element signature="e#18136#18137#0" expanded="false" />
-                <element signature="e#18173#18174#0" expanded="false" />
-                <element signature="e#19826#19827#0" expanded="false" />
-                <element signature="e#19858#19859#0" expanded="false" />
-                <element signature="e#21404#21405#0" expanded="false" />
-                <element signature="e#21485#21486#0" expanded="false" />
-                <element signature="e#26755#26756#0" expanded="false" />
-                <element signature="e#26795#26796#0" expanded="false" />
-                <element signature="e#26841#26842#0" expanded="false" />
-                <element signature="e#26901#26902#0" expanded="false" />
-                <element signature="e#26930#26931#0" expanded="false" />
-                <element signature="e#26955#26956#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mydb.sqlite" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codekamp/mydb.sqlite">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBC.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.19.3.jar!/org/sqlite/JDBC.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.259259">
-              <caret line="72" column="49" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="49" />
-              <folding />
-            </state>
+      <file leaf-file-name="LoginScreen.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/LoginScreen.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -116,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -128,8 +72,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/codekamp/Hello.java" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/LoginScreen.form" />
+        <option value="$PROJECT_DIR$/src/codekamp/LoginScreen.java" />
         <option value="$PROJECT_DIR$/src/codekamp/Demo.java" />
       </list>
     </option>
@@ -138,19 +82,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1024" />
-    <option name="height" value="768" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,38 +112,34 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DatabaseConnectivity" />
+              <option name="myItemId" value="GuiForms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DatabaseConnectivity" />
+              <option name="myItemId" value="GuiForms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DatabaseConnectivity" />
+              <option name="myItemId" value="GuiForms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DatabaseConnectivity" />
+              <option name="myItemId" value="GuiForms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DatabaseConnectivity" />
+              <option name="myItemId" value="GuiForms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,6 +150,10 @@
               <option name="myItemId" value="codekamp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginScreen" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -225,13 +162,12 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="336" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sqlite-jdbc-3.19.3.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Application.Demo">
     <configuration default="false" name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -250,7 +186,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DatabaseConnectivity" />
+      <module name="GuiForms" />
       <envs />
       <method />
     </configuration>
@@ -513,25 +449,22 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f06e78f5-6d85-4606-90ca-9936291bc2d7" name="Default" comment="" />
-      <created>1531373634763</created>
+      <changelist id="dda66684-c404-47a7-a7cc-8e479ca62ada" name="Default" comment="" />
+      <created>1531463427858</created>
       <option name="number" value="Default" />
-      <updated>1531373634763</updated>
-      <workItem from="1531373638633" duration="1124000" />
-      <workItem from="1531454121547" duration="5223000" />
+      <updated>1531463427858</updated>
+      <workItem from="1531463431022" duration="851000" />
+      <workItem from="1531464285290" duration="925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6347000" />
+    <option name="totallyTimeSpent" value="1776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -540,18 +473,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3197556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4355301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24949084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27710843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -559,14 +492,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -583,42 +508,24 @@
     <entry file="file://$PROJECT_DIR$/src/codekamp/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1531458878840" expanded="true" signature="767:791" placeholder="SELECT * FRO..." />
-            <marker date="1531458878840" expanded="true" signature="1169:1233" placeholder="INSERT INTO ..." />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/codekamp/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="330" column="50" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="50" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <element signature="e#0#26959#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4492#4493#0" expanded="false" />
-            <element signature="e#4528#4529#0" expanded="false" />
-            <element signature="e#17838#17839#0" expanded="false" />
-            <element signature="e#17876#17877#0" expanded="false" />
-            <element signature="e#18136#18137#0" expanded="false" />
-            <element signature="e#18173#18174#0" expanded="false" />
-            <element signature="e#19826#19827#0" expanded="false" />
-            <element signature="e#19858#19859#0" expanded="false" />
-            <element signature="e#21404#21405#0" expanded="false" />
-            <element signature="e#21485#21486#0" expanded="false" />
-            <element signature="e#26755#26756#0" expanded="false" />
-            <element signature="e#26795#26796#0" expanded="false" />
-            <element signature="e#26841#26842#0" expanded="false" />
-            <element signature="e#26901#26902#0" expanded="false" />
-            <element signature="e#26930#26931#0" expanded="false" />
-            <element signature="e#26955#26956#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codekamp/mydb.sqlite">
+    <entry file="file://$PROJECT_DIR$/src/codekamp/LoginScreen.form">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -626,170 +533,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.19.3.jar!/org/sqlite/JDBC.class">
+    <entry file="file://$PROJECT_DIR$/src/codekamp/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="330" column="50" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="50" />
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
-            <element signature="e#0#26959#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4492#4493#0" expanded="false" />
-            <element signature="e#4528#4529#0" expanded="false" />
-            <element signature="e#17838#17839#0" expanded="false" />
-            <element signature="e#17876#17877#0" expanded="false" />
-            <element signature="e#18136#18137#0" expanded="false" />
-            <element signature="e#18173#18174#0" expanded="false" />
-            <element signature="e#19826#19827#0" expanded="false" />
-            <element signature="e#19858#19859#0" expanded="false" />
-            <element signature="e#21404#21405#0" expanded="false" />
-            <element signature="e#21485#21486#0" expanded="false" />
-            <element signature="e#26755#26756#0" expanded="false" />
-            <element signature="e#26795#26796#0" expanded="false" />
-            <element signature="e#26841#26842#0" expanded="false" />
-            <element signature="e#26901#26902#0" expanded="false" />
-            <element signature="e#26930#26931#0" expanded="false" />
-            <element signature="e#26955#26956#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codekamp/mydb.sqlite">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/src/codekamp/LoginScreen.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/sqlite-jdbc-3.19.3.jar!/org/sqlite/JDBC.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.259259">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="175" column="11" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9259257">
-          <caret line="260" column="23" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codekamp/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5731343">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <marker date="1531458878840" expanded="true" signature="767:791" placeholder="SELECT * FRO..." />
-            <marker date="1531458878840" expanded="true" signature="1169:1233" placeholder="INSERT INTO ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.53846157">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="23" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>DatabaseConnectivity</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>sqlite-jdbc-3.19.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
